@@ -22,3 +22,4 @@ console.log(restaurant.checkAvailability)
 let status = restaurant.checkAvailability(4)
 
 console.log(status)
+
