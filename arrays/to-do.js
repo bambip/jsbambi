@@ -28,8 +28,21 @@ To do: ${toDos[0]}, ${toDos[toDos.length - 2]}`)
 console.log(toDos)
 
 
-//LOOOOOOOOOPING - for each 
+//Challenge 
+
+toDos.forEach ( function (item, index) {
+    const num = index + 1
+    console.log(`${num}.${item}`)
+})
 
 
+for (let count = 0; count < toDos.length; count++) {
+    const num = count + 1
+    console.log(`${num}. ${toDos[count]}`)
+    
+}
 
 
+//Position of an item:
+
+console.log(notes.indexOf('Note 2'))
