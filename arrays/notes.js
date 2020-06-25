@@ -63,8 +63,3 @@ for (let count = 0; count < notes.length; count ++) {
 
 console.log(notes.indexOf('This is now the new note 3'))
 
-const index = notes.findIndex(finction(note, index) {
-    return note.title === 'Note 3'
-})
-
-console.log(index)

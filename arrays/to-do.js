@@ -17,32 +17,32 @@
 //Challenge!
 const toDos = ['Studying', 'Laundry', 'Sheets', 'Walk the dog', 'Vaccuum']
 
-toDos.splice(2, 1) // deleted the third item
-toDos.push('Find a book to read') // add item at the end
-toDos.shift() // delete first item
+// toDos.splice(2, 1) // deleted the third item
+// toDos.push('Find a book to read') // add item at the end
+// toDos.shift() // delete first item
 
 
-console.log( `You have ${toDos.length} to-dos!
-To do: ${toDos[0]}, ${toDos[toDos.length - 2]}`)
+// console.log( `You have ${toDos.length} to-dos!
+// To do: ${toDos[0]}, ${toDos[toDos.length - 2]}`)
 
-console.log(toDos)
-
-
-//Challenge 
-
-toDos.forEach ( function (item, index) {
-    const num = index + 1
-    console.log(`${num}.${item}`)
-})
+// console.log(toDos)
 
 
-for (let count = 0; count < toDos.length; count++) {
-    const num = count + 1
-    console.log(`${num}. ${toDos[count]}`)
+// //Challenge 
+
+// toDos.forEach ( function (item, index) {
+//     const num = index + 1
+//     console.log(`${num}.${item}`)
+// })
+
+
+// for (let count = 0; count < toDos.length; count++) {
+//     const num = count + 1
+//     console.log(`${num}. ${toDos[count]}`)
     
-}
+// }
 
 
-//Position of an item:
+const toDo = []
 
-console.log(notes.indexOf('Note 2'))
+
