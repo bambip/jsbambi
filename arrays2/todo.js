@@ -27,3 +27,8 @@ toDos.forEach(function (item, index) {
     console.log(`${index + 1}. ${item}`)
 })
 
+for (let count = 0; count < toDos.length; count++) {
+    console.log(`${count + 1}. ${toDos[count]}`)
+
+}
+
