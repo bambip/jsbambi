@@ -72,7 +72,7 @@ console.log(note)
 // console.log(findNotes (notes, 'India'))
 
 // const filteredNotes = notes.filter(function (note, index){ //true boolean will return an item for a new created array 
-//     const  isTitleMatch = note.title.toLowerCase().includes('an')
+//     const isTitleMatch = note.title.toLowerCase().includes('an')
 //     const isBodyMatch = note.body.toLowerCase().includes('an')
 //     return isTitleMatch || isBodyMatch
 // })
